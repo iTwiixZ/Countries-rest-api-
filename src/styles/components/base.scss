@@ -1,0 +1,26 @@
+:root{
+    --dark-mode-elements: hsl(209, 23%, 22%);
+    --dark-mode-bg :hsl(207, 26%, 17%);
+    --light-mode-elements: #fff;
+    --light-mode-bg: hsl(0, 0%, 98%);
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.app{
+    background-color: var(--light-mode-bg);
+    min-height: 100vh;
+    height: 100%;
+}
+
+.app_body{
+    margin: 15px auto 0;
+    padding: 15px;
+    max-width: 1400px;
+}

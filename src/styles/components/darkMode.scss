@@ -1,0 +1,35 @@
+.app.darkMode {
+  background-color: var(--dark-mode-bg);
+  color: white;
+}
+
+.header.darkMode {
+  background-color: var(--dark-mode-bg);
+  color: white;
+}
+
+.country.darkMode {
+  background-color: var(--dark-mode-elements);
+}
+
+.select-regions.darkMode {
+  background-color: var(--dark-mode-elements);
+}
+.select-regions.darkMode select {
+  background-color: var(--dark-mode-elements);
+  color: white;
+}
+.search-input.darkMode {
+  background-color: var(--dark-mode-elements);
+  color: white;
+}
+.search-input.darkMode input {
+  color: white;
+  &::placeholder{
+    color: white;
+  }
+}
+
+.border-country.darkMode{
+  background-color: var(--dark-mode-elements);
+}
